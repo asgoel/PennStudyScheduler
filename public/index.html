@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Social Network App</title>
+    <title>Penn Study Scheduler</title>
     <link rel = "stylesheet" type="text/css"  href="foundation.css" />
-    
+    <link rel = "stylesheet" type="text/css" href="app.css" />
 
     
   </head>
   <body>
-    <div id="page">
 
-
-      <div id="content" class = "container">
-        <div id="header">
-          <h1>A Social Network Site for the University of Pennsylvania</h1>
-        </div>
-
+	
+     <div id="content" class = "container">
+        <div id="header" class = "row">
+          <h2>A Study Scheduler for the University of Pennsylvania</h2>
+       <hr> </div>
         <div class = "row">
-          <div id="LOLcat" class = "four columns">
-		<img src = "lolcat.jpg" alt = "LOLCat" width = "250" height = "500"/>
-		<p>^A LOLCat image!</p>
-          </div>
-        </div>  
-        <br> </br>
-        <div id = "log in">
+        	<div class = "six columns">
+        		<h3> Log In!</h3>
           <form name="login" action="html_form_action.asp" method="get">
-            Username: <input type="text" name="user" />
-            Password: <input type="password" name="pwd" />
-            <input type="submit" value="Submit" />
+            <p><b>Username:</b> <input type="text" name="user" />
+            <b>Password</b>: <input type="password" name="pwd" />
+            <input type="submit" value="Submit" /></p>
           </form>
-        </div>
-        <div id = "button">
-          <button type="button" class = "button">
-            Button Test
-          </button>
-        </div>
+ 
+          <button type="button" class = "small nice button">
+           <p> Button Test
+          </button></p>
+          <hr><h4> A Typical Schedule</h4>
+          <p>This is what a typical Penn Student's Schedule looks like:</p>
+          <p><img src ="2012A.png"> </p>
+          </div>
+        <div class = "six columns"><div class = "panel">
+        	 <h3> About Ashu </h3>
+        	 <p> Ashu is a student at the <a href="http://www.upenn.edu/" target = "_blank"> 
+        	 	University of Pennsylvania</a> studying Computer Science. This project is
+        	 	being undertaken as part of <a href="http://coursekit.com/app#course/2317" 
+        	 	target = "_blank"> CIS 196</a>, a class on Ruby on Rails. Follow me on
+        	 	 <a href="http://www.twitter.com/@asgoel" target = "_blank"> Twitter!</a> </p>
+
+      </div>
       </div>
     
-      <div id="footer">&nbsp;</div>
-    </div>
-        <div id="footer" class = "row">
-            <p>This game was built by <a href="http://www.twitter.com/@asgoel" target = "_blank">Ashu Goel</a>
-            </p>
+        <div id="footer">&nbsp;
     </div>
   </body>
 </html>
